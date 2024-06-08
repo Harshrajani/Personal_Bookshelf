@@ -16,19 +16,19 @@ const BookSearchPage = () => {
 
 	const words = [
 		{
-			text: "Search",
+			text: "Unlock",
 			className: "text-white-500 dark:text-white-500 search-text",
 		},
 		{
-			text: "For",
+			text: "The",
 			className: "text-white-500 dark:text-white-500  search-text",
 		},
 		{
-			text: "Your",
-			className: "text-white-500 dark:text-white-500 search-text",
+			text: "World",
+			className: "text-white-500 dark:text-white-500 search-text highlight",
 		},
 		{
-			text: "Favourite",
+			text: "Of",
 			className: "text-white-500 dark:text-white-500 search-text highlight",
 		},
 		{
@@ -68,7 +68,7 @@ const BookSearchPage = () => {
 				minSize={0.4}
 				maxSize={1}
 				particleDensity={1200}
-				className=" absolute w-full  inset-x-0 bottom-0  sparkles "
+				className=" absolute w-full  inset-x-0 bottom-0 right-0  sparkles "
 				particleColor="#FFFFFF"
 			/>
 			<h1 className="my-24 w-min ml-auto mr-auto ">
@@ -77,7 +77,7 @@ const BookSearchPage = () => {
 			<div className="search-container mb-16">
 				<input
 					type="text"
-					className="form-control  w-1/2 "
+					className="form-control  w-1/2  "
 					placeholder="Type the name of the book..."
 					value={query}
 					onChange={(e) => setQuery(e.target.value)}
@@ -118,7 +118,7 @@ const BookSearchPage = () => {
 			</div>
      
 			
-        <Link to="/bookshelf" className="btn btn-secondary bookshelf-btn">
+        <Link to="/bookshelf" className="btn btn-secondary bookshelf-btn mb-12">
 				Go to My Bookshelf
 			</Link>
 		</div>
