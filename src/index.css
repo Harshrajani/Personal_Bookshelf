@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@1,400..900&display=swap');
+
+/* Add Tailwind CSS classes here */
+/* For example: */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+:root{
+--primary-color: #66FCF1;
+--secondary-color: #45A29E;
+--gradient-color: linear-gradient(to right, 85%, 43%), hsl (199, 100%, 33%);
+--text-color: #C5C6C7;
+--whiteColorDeam:hsl(0, 0%, 93%);
+--greyText:rgb(199, 190, 190);
+--inputColor:rgb(239, 239, 239);
+--body-color:#0B0C10;
+--heading-color: hsl(0, 0%, 100%);
+--cardBG: #1F2833;
+--font-name: "Montserrat", sans-serif;
+}
+body {
+    font-family: var(--font-name);
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    color: var(--heading-color);
+}

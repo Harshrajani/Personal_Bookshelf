@@ -1,0 +1,107 @@
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 10rem;
+}
+.sparkles{
+    z-index: -10;
+    height: 100%;
+}
+.search-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.search-text{
+    color: white;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.highlight{
+    color: var(--primary-color);
+}
+input{
+    height: 50px;
+    outline: 2px solid var(--primary-color);
+    margin-bottom: 10px;   
+}
+.search-btn{
+    background-color: transparent;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: 2px solid var(--primary-color);
+    
+    /* border-radius: 28px; */
+    cursor: pointer;
+    z-index: 1;
+}
+.search-btn:hover{
+    background-color: var(--primary-color);
+    color: black;
+}
+.row{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    background-color: var(--cardBG);
+    border: 2px solid #316cf4;
+    border-radius: 24px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: 20px;
+
+}
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--cardBG);
+}
+.card-title {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+.card-subtitle{
+    color: var(--heading-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    z-index: 10;
+}
+.card-text{
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+.bookshelf-btn{
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    align-self: center;
+    position: absolute;
+    left: 42%;
+}
+.bookshelf-btn:hover{
+    background-color: var(--primary-color);
+    color: black;
+}
