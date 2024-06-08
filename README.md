@@ -49,15 +49,15 @@ A React application allowing users to search for books using the Open Library AP
    cd personal-bookshelf
    
 2. Install dependencies:
-```sh
-npm install
-```
+   ```sh
+   npm install
+   ```
 
 ## Running the Application
 1. Start the development server:
-```sh
-npm run dev
-```
+   ```sh
+   npm run dev
+   ```
 2. Open your browser and navigate to http://localhost:5173.
 
 ## Future Improvements
